@@ -2,7 +2,7 @@ import sys
 sys.path.append('./bot/hnd/')
 
 from telegram_bot import TelegramBot
-bot = TelegramBot("1294503101:AAEJl5Nvsrmijouu-rDiBJHJtw9crJiHU0g")
+bot = TelegramBot("")
 
 
 @bot.command("start")
